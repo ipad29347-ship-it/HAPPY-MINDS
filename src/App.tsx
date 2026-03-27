@@ -5,6 +5,7 @@
 
 import { useState } from 'react';
 import { motion } from 'motion/react';
+import logoImage from './assets/logo.png';
 import { 
   BookOpen, 
   Clock, 
@@ -45,7 +46,7 @@ function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <div className="flex items-center gap-2">
-            <img src="./logo.png" alt="Happy Minds Logo" className="w-12 h-12 rounded-xl border-2 border-stone-800 shadow-[2px_2px_0px_0px_rgba(28,25,23,1)] object-cover bg-white" />
+            <img src={logoImage} alt="Happy Minds Logo" className="w-12 h-12 rounded-xl border-2 border-stone-800 shadow-[2px_2px_0px_0px_rgba(28,25,23,1)] object-cover bg-white" />
             <span className="font-extrabold text-2xl tracking-tight text-stone-800">Happy Minds</span>
           </div>
           <div className="hidden md:flex items-center gap-6 font-bold">
@@ -587,7 +588,7 @@ function Footer() {
     <footer className="bg-stone-900 text-stone-400 py-12 border-t-8 border-stone-950">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-8">
         <div className="flex items-center gap-3">
-          <img src="./logo.png" alt="Happy Minds Logo" className="w-10 h-10 rounded-lg border-2 border-stone-950 object-cover bg-white" />
+          <img src={logoImage} alt="Happy Minds Logo" className="w-10 h-10 rounded-lg border-2 border-stone-950 object-cover bg-white" />
           <span className="font-black text-2xl text-white tracking-tight">Happy Minds</span>
         </div>
         <p className="text-lg font-medium text-center md:text-left">© {new Date().getFullYear()} Happy Minds Home Tuition. All rights reserved.</p>
