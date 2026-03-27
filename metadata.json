@@ -1,0 +1,7 @@
+{
+  "name": "Happy Minds Tuition",
+  "description": "Home Tuition for Class 1-5 in Lucknow. Personalized classes, homework help, and free trial.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
